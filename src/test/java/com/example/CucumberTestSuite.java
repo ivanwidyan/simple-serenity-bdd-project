@@ -1,4 +1,4 @@
-package starter;
+package com.example;
 
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;

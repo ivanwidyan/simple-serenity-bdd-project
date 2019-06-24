@@ -1,4 +1,4 @@
-package starter.matchers;
+package com.example.matchers;
 
 public class TextMatcher {
     private String text;

@@ -1,4 +1,4 @@
-package starter.search;
+package com.example.search;
 
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.steps.UIInteractionSteps;

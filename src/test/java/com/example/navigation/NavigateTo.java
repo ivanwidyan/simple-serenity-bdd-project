@@ -1,5 +1,4 @@
-package starter.navigation;
-import net.serenitybdd.core.SerenitySystemProperties;
+package com.example.navigation;
 import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
 import net.thucydides.core.ThucydidesSystemProperty;
 import net.thucydides.core.annotations.Step;

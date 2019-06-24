@@ -1,4 +1,4 @@
-package starter.search;
+package com.example.search;
 
 import org.openqa.selenium.By;
 
