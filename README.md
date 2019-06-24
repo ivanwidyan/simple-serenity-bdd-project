@@ -1,1 +1,1 @@
-# serenity-bdd-project
+# Serenity BDD Project
