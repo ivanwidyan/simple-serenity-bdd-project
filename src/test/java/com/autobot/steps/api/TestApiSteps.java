@@ -1,15 +1,13 @@
-package com.example.steps.api;
+package com.autobot.steps.api;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import net.serenitybdd.rest.SerenityRest;
 import org.hamcrest.Matchers;
-import org.hamcrest.MatcherAssert;
 
-public class CountriesSearchSteps {
+public class TestApiSteps {
     private String ISO_CODE_SEARCH = "http://services.groupkt.com/country/get/iso2code/";
     private Response response;
 

@@ -1,4 +1,4 @@
-package com.example;
+package com.autobot;
 
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -9,4 +9,4 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         features = "src/test/resources/features"
 )
-public class CucumberTestSuite {}
+public class CucumberRunner {}
