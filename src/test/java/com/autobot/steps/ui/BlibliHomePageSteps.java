@@ -10,9 +10,13 @@ public class BlibliHomePageSteps {
 
     @Given("open the Blibli home page")
     public void open_the_Blibli_home_page() {
-        System.out.println("config: " + Utility.getConfig("webdriver.base.url"));
-        System.out.println("property: " + Utility.getProperty("serenity.project.name"));
-        blibliHomePage.openUrl(Utility.getConfig("web.homepage.url"));
+        if (Boolean.valueOf(Utility.getProperty("mobile.web"))) {
+            System.out.println("config: " + Utility.getConfig("webdriver.base.url"));
+            System.out.println("property: " + Utility.getProperty("serenity.project.name"));
+            blibliHomePage.openUrl(Utility.getConfig("web.homepage.url"));
+        } else {
+
+        }
     }
 
     @Given("at blibli home page fill '(.*)' in search box")

@@ -6,9 +6,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.steps.ScenarioSteps;
-import org.junit.Test;
 
 import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class TestApiSteps extends ScenarioSteps {
 
